@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido Personalizado - Estrela Mística Ateliê</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+
+           <a href="../index.html">
+
+            <img src="img/Estrela Mística Marca.png"
+                 alt="Estrela Mística Ateliê"
+                 class="logo-menu">
+
+        </a>
+
+            <ul>
+                <li><a href="..index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="colecoes.html">Coleções</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="pedido.html">Pedido</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+   <main class="pedido-page">
+
+    <button id="btn-acessibilidade" class="btn-acessibilidade">
+    A+ Leitura Confortável
+</button>
+
+ <section class="topo-pagina">
+
+    <span class="subtitulo">
+        PEDIDOS EXCLUSIVOS
+    </span>
+
+    <h1>Solicite sua Vestimenta</h1>
+
+    <p>
+        Cada peça é confeccionada artesanalmente,
+        respeitando sua tradição, preferências e
+        necessidades.
+    </p>
+
+</section>
+
+
+</section>
+
+   <section class="card-formulario">
+
+<form class="formulario-pedido">
+
+    <label>Nome Completo</label>
+    <input type="text" id="nome"
+     placeholder="Ex: Maria Silva, João Santos...">
+    <small id="erro-nome"></small>
+        
+    <label>WhatsApp</label>
+    <input type="tel" id="whatsapp"
+     placeholder="Ex: (11) 99999-9999">
+
+    <small id="erro-whatsapp"></small>
+
+    <label>Tipo da Peça</label>
+    <input type="text" id="peca"
+    placeholder="Ex: Vestido, Saia, Conjunto...">
+
+      <small id="erro-peca"></small>
+
+    <label>Religião</label>
+
+    <select id="religiao">
+        <option>Selecione uma opção</option>
+        <option>Umbanda</option>
+        <option>Candomblé</option>
+        <option>Outro</option>
+    </select>
+
+    <label>Descrição do Pedido</label>
+
+    <textarea
+        id="descricao"
+        rows="6"
+        placeholder="Descreva sua peça, cores, detalhes e observações...">
+    </textarea>
+
+    <small id="erro-descricao"></small>
+
+    <button type="button" onclick="enviarPedido()">
+        Solicitar Orçamento
+    </button>
+
+</form>
+    </section>
+
+<section class="missao-premium">
+
+    <div class="hero-smoke">
+
+        <div class="smoke s1"></div>
+        <div class="smoke s2"></div>
+        <div class="smoke s3"></div>
+
+    </div>
+
+    <i class="fa-brands fa-whatsapp missao-icone"></i>
+
+    <h2>Prefere conversar diretamente?</h2>
+
+    <blockquote>
+
+        Nossa equipe está pronta para tirar
+        dúvidas e orientar você na escolha
+        da peça ideal.
+
+    </blockquote>
+
+    <a href="https://wa.me/5541996314284"
+       target="_blank"
+       class="botao-saiba-mais">
+
+        Conversar pelo WhatsApp
+
+    </a>
+
+</section>
+
+</main>
+ <footer>
+
+    <div class="footer-conteudo">
+
+     <img src="img/Estrela Mística Marca.png"
+     alt="Estrela Mística Ateliê"
+     class="footer-logo">
+
+       
+                <p>
+            Vestimentas religiosas confeccionadas com tradição,
+            elegância e respeito.
+        </p>
+
+        <ul class="footer-menu">
+
+            <li><a href="../index.html">Início</a></li>
+
+            <li><a href="sobre.html">Sobre</a></li>
+
+            <li><a href="colecoes.html">Coleções</a></li>
+
+            <li><a href="galeria.html">Galeria</a></li>
+
+            <li><a href="pedido.html">Pedido</a></li>
+
+            <li><a href="contato.html">Contato</a></li>
+
+        </ul>
+
+                <div class="footer-redes">
+
+            <a href="#" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="#" aria-label="E-mail">
+            <i class="fa-solid fa-envelope"></i>
+            </a>
+
+            </div>
+    <div class="footer-copy">
+
+        © 2026 Estrela Mística Ateliê. Todos os direitos reservados.
+
+    </div>
+
+</footer>
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>
