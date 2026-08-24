@@ -15,24 +15,110 @@
 
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-    <header>
-        <nav>
-          <h1 class="logo-texto"></h1>
-<ul>
-    <li><a href="index.html">Início</a></li>
-    <li><a href="pages/sobre.html">Sobre</a></li>
-    <li><a href="pages/colecoes.html">Coleções</a></li>
-    <li><a href="pages/galeria.html">Galeria</a></li>
-    <li><a href="pages/pedido.html">Pedido</a></li>
-    <li><a href="pages/contato.html">Contato</a></li>
-</ul>
-        </nav>
-    </header>
+<header>
 
-    <main>
+    <!-- MENU DESKTOP -->
+    <nav class="desktop-nav">
+
+        <ul>
+
+            <li><a href="index.html">Início</a></li>
+            <li><a href="pages/sobre.html">Sobre</a></li>
+            <li><a href="pages/colecoes.html">Coleções</a></li>
+            <li><a href="pages/galeria.html">Galeria</a></li>
+            <li><a href="pages/pedido.html">Pedido</a></li>
+            <li><a href="pages/contato.html">Contato</a></li>
+
+        </ul>
+
+    </nav>
+
+    <!-- MENU MOBILE -->
+    <nav class="mobile-nav">
+
+        <img src="pages/img/Estrela Mística Marca.png"
+             class="logo-mobile"
+             alt="Estrela Mística">
+
+        <button id="menu-toggle">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </button>
+
+        <div class="mobile-menu" id="mobile-menu">
+
+    <div class="mobile-menu-header">
+
+        <img src="pages/img/Estrela Mística Marca.png"
+             class="mobile-menu-logo"
+             alt="Estrela Mística Ateliê">
+
+        <button class="mobile-close" id="mobile-close" aria-label="Fechar menu">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+    </div>
+
+    <a href="index.html">
+        <i class="fa-solid fa-house"></i>
+        <span>Início</span>
+    </a>
+
+    <a href="pages/sobre.html">
+        <i class="fa-solid fa-users"></i>
+        <span>Sobre</span>
+    </a>
+
+    <a href="pages/colecoes.html">
+        <i class="fa-solid fa-shirt"></i>
+        <span>Coleções</span>
+    </a>
+
+    <a href="pages/galeria.html">
+        <i class="fa-solid fa-images"></i>
+        <span>Galeria</span>
+    </a>
+
+    <a href="pages/pedido.html">
+        <i class="fa-solid fa-clipboard-list"></i>
+        <span>Pedido</span>
+    </a>
+
+    <a href="pages/contato.html">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Contato</span>
+    </a>
+
+    <div class="mobile-redes">
+
+        <a href="https://www.instagram.com/estrelamistica.atelie/"
+           target="_blank"
+           aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://wa.me/5541996314284"
+           target="_blank"
+           aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+    </div>
+
+</div>
+
+    </nav>
+
+</header>
+
+<div id="menu-overlay" class="menu-overlay"></div>
+
+<main>
+
+    
 <section id="inicio" class="hero">
 
     <div class="hero-slider">
@@ -212,37 +298,47 @@
 
         <ul class="footer-menu">
 
-            <li><a href="index.html">Início</a></li>
+    <li><a href="index.html">Início</a></li>
 
-            <li><a href="pages/sobre.html">Sobre</a></li>
+    <li><a href="pages/sobre.html">Sobre</a></li>
 
-            <li><a href="pages/colecoes.html">Coleções</a></li>
+    <li><a href="pages/colecoes.html">Coleções</a></li>
 
-            <li><a href="pages/galeria.html">Galeria</a></li>
+    <li><a href="pages/galeria.html">Galeria</a></li>
 
-            <li><a href="pages/pedido.html">Pedido</a></li>
+    <li><a href="pages/pedido.html">Pedido</a></li>
 
-            <li><a href="pages/contato.html">Contato</a></li>
+    <li><a href="pages/contato.html">Contato</a></li>
 
-        </ul>
+</ul>
 
-                <div class="footer-redes">
+                        <div class="footer-redes">
 
             <a href="https://www.instagram.com/estrelamistica.atelie/"
-            target="_blank" aria-label="Instagram">
-            <i class="fa-brands fa-instagram"></i>
+                target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
             </a>
 
             <a href="https://wa.me/5541996314284"
-            target="_blank" aria-label="WhatsApp">
-            <i class="fa-brands fa-whatsapp"></i>
+                target="_blank" aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
             </a>
 
-            <a href="https://wa.me/5541996314284" aria-label="E-mail">
-            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:contato@estrelamisticaatelie.com"
+                aria-label="E-mail">
+                <i class="fa-solid fa-envelope"></i>
             </a>
 
-            </div>
+        </div>
+        <div class="footer-endereco">
+
+    <i class="fa-solid fa-location-dot"></i>
+
+    <span>
+        Al. Dr. Muricy, 970, Sala 5 - Curitiba
+    </span>
+
+</div>
     <div class="footer-copy">
 
         © 2026 Estrela Mística Ateliê. Todos os direitos reservados.
